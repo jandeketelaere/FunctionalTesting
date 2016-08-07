@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalTesting", "FunctionalTesting\FunctionalTesting.csproj", "{F5BD67EB-E72A-415D-BACD-1F07BCE15D88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalTesting.Tests", "FunctionalTesting.Tests\FunctionalTesting.Tests.csproj", "{36B9BC1E-0EE9-44D9-BE82-7FB01EC37E51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5BD67EB-E72A-415D-BACD-1F07BCE15D88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5BD67EB-E72A-415D-BACD-1F07BCE15D88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5BD67EB-E72A-415D-BACD-1F07BCE15D88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5BD67EB-E72A-415D-BACD-1F07BCE15D88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36B9BC1E-0EE9-44D9-BE82-7FB01EC37E51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36B9BC1E-0EE9-44D9-BE82-7FB01EC37E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36B9BC1E-0EE9-44D9-BE82-7FB01EC37E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36B9BC1E-0EE9-44D9-BE82-7FB01EC37E51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
