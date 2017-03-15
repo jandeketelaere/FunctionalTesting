@@ -8,11 +8,6 @@ namespace FunctionalTesting
     {
         private readonly List<T> _values;
 
-        public Evaluate(List<T> values)
-        {
-            _values = values;
-        }
-
         public Evaluate(params T[] values)
         {
             _values = new List<T>(values);
