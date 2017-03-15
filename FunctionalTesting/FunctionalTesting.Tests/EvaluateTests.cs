@@ -11,32 +11,16 @@ namespace FunctionalTesting.Tests
         public void Test()
         {
             Evaluate(1, 2, 3)
-                .When(
-                    i => i == 1,
-                    i => i < 5,
-                    i => i < 6
-                    )
+                .When(i => i == 1, i => i < 5, i => i < 6)
                     .Then(PrintYay)
                     .Else(PrintNay)
-                .When(
-                    i => i == 1,
-                    i => i < 5,
-                    i => i < 6
-                    )
+                .When(i => i == 1, i => i < 5, i => i < 6)
                     .Then(PrintYay)
                     .Else(PrintNay)
-                .When(
-                    i => i > 0,
-                    i => i <= 2,
-                    i => i == 3
-                    )
+                .When(i => i > 0, i => i <= 2, i => i == 3)
                     .Then(PrintYay)
-                .When(
-                    i => i >= 0,
-                    i => i == 2
-                    )
-                    .Then(PrintYay)
-                ;
+                .When(i => i >= 0, i => i == 2)
+                    .Then(PrintYay);
         }
 
         private static void PrintYay()
